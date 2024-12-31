@@ -1,2 +1,2 @@
-qcc/data.py
-dados_simulados.csv
+git rm --cached qcc/data.py
+git rm --cached dados_simulados.csv
