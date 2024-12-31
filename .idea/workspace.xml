@@ -5,12 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bd6e7091-a3cd-4e3a-9b47-e944b0fabf94" name="Changes" comment="initial commit&#10;&#10;initial commit">
-      <change afterPath="$PROJECT_DIR$/qcc/R_bar.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qcc/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qcc/capability.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qcc/data.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qcc/main.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qcc/x_bar.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,18 +22,25 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory">{
-  &quot;lastFilter&quot;: {
-    &quot;state&quot;: &quot;OPEN&quot;,
-    &quot;assignee&quot;: &quot;Lucasscheere&quot;
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "history": [
+    {
+      "state": "OPEN"
+    }
+  ],
+  "lastFilter": {
+    "state": "OPEN"
   }
-}</component>
+}]]></component>
   <component name="GithubPullRequestsUISettings">{
   &quot;selectedUrlAndAccountId&quot;: {
     &quot;url&quot;: &quot;https://github.com/Lucasscheere/qcc.git&quot;,
     &quot;accountId&quot;: &quot;7d03f86c-3f53-4b4f-8d17-4517949d8f18&quot;
   }
 }</component>
+  <component name="MaliciousPackageCheckinHandlerState">
+    <option name="packageCheck" value="true" />
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 7
 }</component>
@@ -142,12 +144,21 @@
       <option name="project" value="LOCAL" />
       <updated>1735344829857</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="initial commit&#10;&#10;initial commit">
+      <option name="closed" value="true" />
+      <created>1735677032706</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1735677032706</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="initial commit" />
     <MESSAGE value="initial commit&#10;&#10;initial commit" />
     <option name="LAST_COMMIT_MESSAGE" value="initial commit&#10;&#10;initial commit" />
+    <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
 </project>

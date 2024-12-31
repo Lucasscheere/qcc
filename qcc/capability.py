@@ -14,8 +14,6 @@ def calculate_capability(data, lsl, usl):
     cpk = min(cpu, cpl)
 
 
-
-    # Retorna os valores calculados
     return {
         "cp": cp,
         "cpk": cpk,
