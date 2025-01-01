@@ -1,3 +1,5 @@
+from math import sqrt
+
 import numpy as np
 import plotly.graph_objects as go
 
@@ -15,12 +17,12 @@ def calculate_capability(data, lsl, usl):
 
 
     return {
-        "cp": cp,
-        "cpk": cpk,
-        "cpu": cpu,
-        "cpl": cpl,
-        "Mean": overall_mean,
-        "StdDev": overall_std}
+        "cp": float(cp),
+        "cpk": float(cpk),
+        "cpu": float(cpu),
+        "cpl": float(cpl),
+        "Mean": float(overall_mean),
+        "StdDev": float(overall_std)}
 
 def plot_capability(data, lsl, usl):
     stats = calculate_capability(data, lsl, usl)
@@ -43,8 +45,7 @@ def plot_capability(data, lsl, usl):
     fig.add_trace(go.Histogram(
         x=bins[:-1],  # Use only the lower bound of each bin for the histogram
         y=n,
-        opacity=0.6,
-        # histfillcolor='g',edgecolor='black'
+        #nbinsx=20
     )
     )
 
