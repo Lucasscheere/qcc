@@ -6,6 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="bd6e7091-a3cd-4e3a-9b47-e944b0fabf94" name="Changes" comment="initial commit&#10;&#10;initial commit">
       <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/qcc/capability.py" beforeDir="false" afterPath="$PROJECT_DIR$/qcc/capability.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,16 +23,16 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "history": [
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;history&quot;: [
     {
-      "state": "OPEN"
+      &quot;state&quot;: &quot;OPEN&quot;
     }
   ],
-  "lastFilter": {
-    "state": "OPEN"
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;
   }
-}]]></component>
+}</component>
   <component name="GithubPullRequestsUISettings">{
   &quot;selectedUrlAndAccountId&quot;: {
     &quot;url&quot;: &quot;https://github.com/Lucasscheere/qcc.git&quot;,
@@ -50,23 +51,23 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Python tests.Doctests in generic.executor": "Run",
-    "Python.R_bar.executor": "Run",
-    "Python.R_chart.executor": "Run",
-    "Python.X_bar.executor": "Run",
-    "Python.capability.executor": "Run",
-    "Python.data.executor": "Run",
-    "Python.docrunner.executor": "Debug",
-    "Python.main.executor": "Run",
-    "Python.mean_and_R.executor": "Run",
-    "Python.x_bar.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "main"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Python tests.Doctests in generic.executor&quot;: &quot;Run&quot;,
+    &quot;Python.R_bar.executor&quot;: &quot;Run&quot;,
+    &quot;Python.R_chart.executor&quot;: &quot;Run&quot;,
+    &quot;Python.X_bar.executor&quot;: &quot;Run&quot;,
+    &quot;Python.capability.executor&quot;: &quot;Run&quot;,
+    &quot;Python.data.executor&quot;: &quot;Run&quot;,
+    &quot;Python.docrunner.executor&quot;: &quot;Debug&quot;,
+    &quot;Python.main.executor&quot;: &quot;Run&quot;,
+    &quot;Python.mean_and_R.executor&quot;: &quot;Run&quot;,
+    &quot;Python.x_bar.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />

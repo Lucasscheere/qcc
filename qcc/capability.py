@@ -65,6 +65,4 @@ def plot_capability(data, lsl, usl):
         yaxis_title='Frequência Relativa'
     )
 
-    # Add legend and grid
-    fig.update_layout(legend=dict(yanchor="top", y=1.02), grid=True)
     fig.show()
