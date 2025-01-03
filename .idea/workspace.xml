@@ -5,7 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bd6e7091-a3cd-4e3a-9b47-e944b0fabf94" name="Changes" comment="initial commit&#10;&#10;initial commit">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/qcc/capability.py" beforeDir="false" afterPath="$PROJECT_DIR$/qcc/capability.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/qcc/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/qcc/main.py" afterDir="false" />
     </list>
