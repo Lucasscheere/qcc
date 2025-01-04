@@ -25,32 +25,25 @@ def calculate_capability(data, lsl, usl):
 def plot_capability(data, lsl, usl):
     stats = calculate_capability(data, lsl, usl)
 
-
     # Calculate mean and standard deviation
     mean = data.to_numpy().flatten().mean()
     std_dev = data.to_numpy().flatten().std()
 
 
-    # Create a new plotly figure"""
-    fig = go.Figure()  # Removed the rows and columns arguments
+    fig = go.Figure()
 
     # Create the histogram with density
-    n, bins = np.histogram(data.to_numpy().flatten(), density=True)
+    n, bins= np.histogram(data.to_numpy().flatten(), density=True, bins=20)
     min_value = bins[0]
     max_value = bins[-1]
 
 
-    fig.add_trace(go.Histogram(
-        x=bins[:-1],  # Use only the lower bound of each bin for the histogram
-        y=n,
-        #nbinsx=20
-    )
-    )
+    fig.add_trace(go.Histogram(x=data.to_numpy().flatten(), y=n, histnorm="probability density"))
 
     # Add the normal distribution curve
     x = np.linspace(min_value, max_value, 100)
     p = np.exp(-(x - mean) ** 2 / (2 * std_dev ** 2)) / (std_dev * np.sqrt(2 * np.pi))
-    fig.add_trace(go.Scatter(x=x, y=p, mode='lines', name='Distribuição Normal'))
+    fig.add_trace(go.Scatter(x=x, y=p, name='Distribuição Normal', line = dict(color='royalblue', width=4, dash='dash')))
 
     # Add the specification limits
     fig.add_vline(x=lsl, line_color='red', name=f'LSL ({lsl})')

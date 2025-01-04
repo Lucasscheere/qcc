@@ -5,6 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bd6e7091-a3cd-4e3a-9b47-e944b0fabf94" name="Changes" comment="initial commit&#10;&#10;initial commit">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/qcc/capability.py" beforeDir="false" afterPath="$PROJECT_DIR$/qcc/capability.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/qcc/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/qcc/main.py" afterDir="false" />
     </list>
@@ -51,28 +52,57 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Python tests.Doctests in generic.executor&quot;: &quot;Run&quot;,
-    &quot;Python.R_bar.executor&quot;: &quot;Run&quot;,
-    &quot;Python.R_chart.executor&quot;: &quot;Run&quot;,
-    &quot;Python.X_bar.executor&quot;: &quot;Run&quot;,
-    &quot;Python.capability.executor&quot;: &quot;Run&quot;,
-    &quot;Python.data.executor&quot;: &quot;Run&quot;,
-    &quot;Python.docrunner.executor&quot;: &quot;Debug&quot;,
-    &quot;Python.main.executor&quot;: &quot;Run&quot;,
-    &quot;Python.mean_and_R.executor&quot;: &quot;Run&quot;,
-    &quot;Python.x_bar.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Python tests.Doctests in generic.executor": "Run",
+    "Python.R_bar.executor": "Run",
+    "Python.R_chart.executor": "Run",
+    "Python.X_bar.executor": "Run",
+    "Python.capability.executor": "Run",
+    "Python.data.executor": "Run",
+    "Python.docrunner.executor": "Debug",
+    "Python.main.executor": "Run",
+    "Python.mean_and_R.executor": "Run",
+    "Python.x_bar.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "main"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/qcc" />
     </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="capability" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="PythonProject" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/qcc" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/qcc/capability.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.capability" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
